@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!--
+Name: Cam Olsen
+Date Created:02/08/19
+Most Recent Revision:
+-->
+<html lang="en">
+
+  <head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Menu</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link href="Styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+  <!-- Google font for header -->
+    <link href="https://fonts.googleapis.com/css?family=Medula+One" rel="stylesheet">
+  <!-- Link for Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <style>
+    table {
+      width: 100%;
+    }
+    table, td {
+      text-align: center;
+    }
+    th, td {
+      width: 33%
+    }
+    th {
+      font-size: 1.2em;
+    }
+    nav {
+      border-top: thin #5b7d87 solid;
+      border-bottom: thin #5b7d87 solid;
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+    nav .btn {
+      background-color: black;
+      color: white;
+    }
+    nav .btn:hover {
+      font-weight: bold;
+    }
+    header {
+      font-size: 100px;
+    }
+    body {
+      background-color: #C3E1DD;
+    }
+    .container {
+      background-color: #DCDCDC;
+      border-radius: 15px;
+    }
+    </style>
+
+  </head>
+
+  <body>
+    <header>
+      <p>Mile High Pub</p>
+    </header>
+
+    <nav>
+      <ul class="nav nav-pills">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li class="active"><a href="menu.html"><span class="glyphicon glyphicon-cutlery"></span> Menu</a></li>
+        <li><a href="contact.html"><span class="glyphicon glyphicon-comment"></span> Contact Us</a></li>
+      </ul>
+    </nav>
+    <br>
+
+<!-- My attempt at responsive menu using grid system -->
+<div class="container" style="text-align: center">
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <h4>Burger and Fries</h4>
+      <p>An American Classic!<br />
+        Your choice - with or without cheese<br />
+      Pickle, onion, tomato, and lettuce<br />
+      Served with our famous thick cut french fries<br />
+      $7.95</p>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <h4>Hot Dog and Chips</h4>
+      <p>A Summer Classic!<br />
+      Your choice - white or wheat bun<br />
+      Relish, mustard, and ketchup<br />
+      Served with our house-made chips<br />
+      $7.95</p>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <h4>Italian Sausage and Peppers</h4>
+      <p>An All-Time Favorite!<br />
+        Your choice - mild or spicy cole slaw<br />
+        Served with garlic mashers<br />
+        $10.95</p>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <h4>Tenderloin Sandwich and Chips</h4>
+      <p>Really Hits the Spot!<br />
+        Plain or Sesame Seed Bun<br />
+        Pickle, onion, tomato, and lettuce<br />
+        Served with house-made chips<br />
+        $8.95</p>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <h4>House Salad</h4>
+      <p>On the Lighter Side<br />
+        Your choice - with or without cheese<br />
+        Iceberg lettuce, tomatoes, peppers<br />
+        Thousand Island or Ranch Dressing<br />
+        Served with a dinner roll<br />
+        $6.95</p>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <h4>Brisket Sandwich and Fries</h4>
+        <p>A Taste of Texas!<br />
+          Smoked Brisket on thick-cut Texas toast<br />
+          Cole Slaw<br />
+          Served with our famous thick-cut french fries<br >
+          $7.95</p>
+      </div>
+  </div>
+</div>
+
+<!-- Drink manu -->
+<div class="container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th colspan="2" style="text-align: center"><h4>Beverages</h4></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Root Beer</td>
+        <td>$3.00</td>
+      </tr>
+      <tr>
+        <td>Bottled Water</td>
+        <td>$1.25</td>
+      </tr>
+      <tr>
+        <td>Lemonade</td>
+        <td>$1.00</td>
+      </tr>
+      <tr>
+        <td>Iced Tea</td>
+        <td>$1.25</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<noscript>This site is best viewed with Javascript</noscript>
+
+  <footer>
+    <hr />
+    <p>2800 Larimer Street, Denver, Colorado, 80205</p>
+    <p>303-296-3404</p>
+  </footer>
+
+<!-- Bootstrap CDN links -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
